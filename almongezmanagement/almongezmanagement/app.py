@@ -7178,7 +7178,7 @@ def diagnose_financial_calculations():
 
 if __name__ == '__main__':
     init_db()
-    port = int(os.environ.get('PORT', 8009))
+    port = int(os.environ.get('PORT', 8010))
     # Enable debug mode for development by default
     debug = os.environ.get('FLASK_ENV') != 'production'
     app.run(host='0.0.0.0', port=port, debug=True)
